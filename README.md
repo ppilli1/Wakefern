@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+/////check out this piece of code down below, find it in the local.settings.json file in your function folder holding the OpenAI services and OpenAI Api Key
+/////inside this file you can see that there is a JSON object that holds 4 different key-value pairs ---> which signifies that there are 4 different variables assigned to each of their own values
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
+    "OPENAI_API_KEY": "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"
+  }
+}
